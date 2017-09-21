@@ -2,3 +2,6 @@
 # yarn lockfile v1
 
 
+lightbox2@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/lightbox2/-/lightbox2-2.9.0.tgz#f9a2fdb41ab3ca94bf0f769210b59bb14a5d5f62"
