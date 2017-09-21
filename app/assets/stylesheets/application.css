@@ -14,6 +14,15 @@
  *= require_self
  */
 
+#intro {
+  background: url("Tile.jpg") 50% 0 repeat-x;
+  height: 800px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  animation: animatedBackground 20s linear infinite;
+  background-size: cover;
+
+}
 .col {
   text-align: left;
 }
@@ -236,17 +245,15 @@ h1 {
 }
 
 #mywork {
-  height: 750px;
+  height: 800px;
   background-color: ghostwhite;
   opacity: 0.6;
 }
 
-.modal-body {
-  width: 100%;
-}
-
 .thumbnail {
-  margin-bottom: 50px;
+  width: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .img-responsive {
@@ -542,15 +549,7 @@ p {
   width: 100%;
 }
 
-#intro {
-  background: url("Tile.jpg") 50% 0 repeat-x fixed;
-  height: 800px;
-  margin: 0;
-  padding: 200px 0 260px 0;
-  animation: slide 60s linear infinite;
-  background-size: cover;
-  width: 5076px;
-}
+
 
 .wrapper {
   overflow: hidden;
@@ -605,20 +604,16 @@ img.hover-shadow {
   height: 700px;
 }
 
-
 .container {
-    width: 100%;
-    margin: auto;
-  }
-
-
+  width: 100%;
+  margin: auto;
+}
 
 .darkaaron {
-      height: auto;
-      width: 100%;
-      margin-top: 300px;
-  }
-
+  height: auto;
+  width: 100%;
+  margin-top: 300px;
+}
 
 .work_examples {
   font-family: 'roboto', 'Helvetica', 'Arial', sans-serif;
@@ -627,22 +622,38 @@ img.hover-shadow {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .navbar-brand {
   padding-top: 0;
   color: white;
 }
+
 #mail {
   color: black;
 }
+
 #contact {
   background-color: rgb(200, 200, 200);
   height: 300px;
 }
+
 #mywork>div.container>div>div>a>img {
   border: solid 2pt black;
 }
+
 #work_photos {
   margin: auto;
+}
+.modal-body {
+  width: auto;
+}
+
+.modal-content {
+  width: auto;
+}
+
+img .thumbnail .img-responsive {
+  width: auto;
 }
 .footer-social {
   display: flex;
@@ -650,32 +661,36 @@ img.hover-shadow {
   left: 95px;
   bottom: 20px;
 }
+
+.footer-social li {
+  margin-right: 10px;
+}
+
 .contact-info {
   font-size: 18px;
   font-style: italic;
   position: relative;
   left: 135px;
 }
+
 .reachout {
   position: relative;
   top: 5px;
 }
 
 body.modal-open {
-  overflow: visible;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 981px) {
   .darkaaron {
     margin-top: 11px;
   }
-
   .monitor {
     position: relative;
     top: 22px;
     left: 220px;
   }
-
   .skills-specific {
     color: red;
     margin: auto;
@@ -692,7 +707,6 @@ body.modal-open {
     top: 15px;
     left: 280px;
   }
-
   .backend {
     font-size: 1.1em;
     font-family: 'nexa_boldregular', 'roboto', 'Helvetica', 'Arial', sans-serif;
@@ -710,7 +724,6 @@ body.modal-open {
     position: relative;
     left: 270px;
   }
-
   .footer-social {
     display: flex;
     position: relative;
@@ -728,5 +741,16 @@ body.modal-open {
   }
   .contact-info a {
     width: 40px;
+  }
+  .modal-body {
+    width: 800px;
+  }
+
+  .modal-content {
+    width: 800px;
+  }
+
+  img .thumbnail .img-responsive {
+    width: 800px;
   }
 }
