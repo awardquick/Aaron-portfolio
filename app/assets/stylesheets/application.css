@@ -425,7 +425,6 @@ p {
 
 .right-side {
   position: absolute;
-  overflow: hidden;
   height: 100%;
   right: 0;
 }
@@ -613,7 +612,7 @@ img.hover-shadow {
 .darkaaron {
   height: auto;
   width: 100%;
-  margin-top: 300px;
+  margin-top: 255px;
 }
 
 .work_examples {
@@ -685,7 +684,7 @@ body.modal-open {
 
 @media only screen and (min-width: 981px) {
   .darkaaron {
-    margin-top: 11px;
+    margin-top: 70px;
   }
   .monitor {
     position: relative;
@@ -753,5 +752,10 @@ body.modal-open {
 
   img .thumbnail .img-responsive {
     width: 800px;
+  }
+  .reachout {
+    position: relative;
+    top: 5px;
+    left: 25px;
   }
 }
