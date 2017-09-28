@@ -430,7 +430,7 @@ p {
 }
 
 .right-side {
-  x padding: 0;
+  padding: 0;
   float: right;
 }
 
@@ -484,7 +484,8 @@ p {
 .row {
   width: 90%;
   max-width: 90%;
-  margin: 0 auto display:table;
+  margin: auto;
+  display:table;
 }
 
 .section-profile .row {
