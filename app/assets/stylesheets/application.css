@@ -108,7 +108,7 @@ footer {
 .sub-heading span {
   color: black;
   position: relative;
-  left:1.5em;
+  left:1.2em;
 }
 
 h3 {
@@ -134,7 +134,7 @@ h3 {
 }
 
 .sub-heading {
-  margin-left: 40px;
+  margin-left: 10px;
   margin-top: 35px;
   color: #FFF;
   letter-spacing: 10px;
@@ -296,6 +296,8 @@ h4 {
   margin-bottom: 1.5em;
   letter-spacing: 1px;
   text-align: center;
+  position: relative;
+  right: 35px;
 }
 
 .skills-specific li, .skills-specific2 li {
@@ -310,7 +312,7 @@ h4 {
   color: red;
   margin: auto;
   position: relative;
-  left: 120px;
+  left: 105px;
 }
 
 div {
@@ -395,7 +397,7 @@ ul {
 p {
   font-size: 18px;
   font-family: 'roboto', 'Helvetica', 'Arial', sans-serif;
-  line-height: 120%;
+  line-height: 130%;
   font-weight: 400;
   top: 85px;
   display: block;
@@ -484,7 +486,7 @@ p {
 .row {
   width: 90%;
   max-width: 90%;
-  margin: 0 auto display:table;
+  margin: 0 auto;
 }
 
 .section-profile .row {
@@ -684,19 +686,30 @@ body.modal-open {
 
 @media only screen and (min-width: 1094px) {
   .darkaaron {
-    margin-top: 28px;
+    margin-top: 3px;
+    width: 100%;
+    height: auto;
   }
 
   .monitor {
     position: relative;
     top: 22px;
-    left: 220px;
+    left: 205px;
   }
   .skills-specific {
     color: red;
     margin: auto;
     position: relative;
-    left: 210px;
+    left: 200px;
+  }
+  .skills-specific li {
+    height: 2em;
+    font-family: 'nexa_boldregular', 'roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: list-item;
+    position: relative;
+    right: 15px;
   }
   svg {
     width: 7em;
@@ -717,13 +730,22 @@ body.modal-open {
     letter-spacing: 1px;
     text-align: center;
     position: relative;
-    left: 60px;
+    left: 20px;
   }
   .skills-specific2 {
     color: red;
     margin: auto;
     position: relative;
     left: 270px;
+  }
+  .skills-specific2 li {
+    height: 2em;
+    font-family: 'nexa_boldregular', 'roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: list-item;
+    position: relative;
+    right: 20px;
   }
   .footer-social {
     display: flex;
@@ -757,6 +779,6 @@ body.modal-open {
   .reachout {
     position: relative;
     top: 5px;
-    left: 25px;
+    right: 20px;
   }
 }
